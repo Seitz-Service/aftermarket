@@ -1,0 +1,55 @@
+{
+    "byId": {
+        "1": {
+            "id": 1,
+            "title": "product 1",
+            "accordions": [
+                {
+                    "title": "Section 1",
+                    "text": "text"
+                },
+                {
+                    "title": "Section 2",
+                    "text": "text"
+                },
+                {
+                    "title": "Section 3",
+                    "text": "text"
+                }
+            ]
+        },
+        "2": {
+            "id": 2,
+            "title": "HyValve 1000 Type 3106 product 2",
+            "accordions": [
+                {
+                    "title": "Section 1",
+                    "text": "text"
+                },
+                {
+                    "title": "Section 2",
+                    "text": "text"
+                }
+            ]
+        },
+        "3": {
+            "id": 3,
+            "title": "product 2",
+            "accordions": [
+                {
+                    "title": "Section 1",
+                    "text": "text"
+                },
+                {
+                    "title": "Section 2",
+                    "text": "text"
+                },
+                {
+                    "title": "Section 3",
+                    "text": "text"
+                }
+            ]
+        }
+    },
+    "allIds": [1, 2, 3]
+}
