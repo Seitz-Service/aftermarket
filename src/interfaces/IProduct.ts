@@ -1,7 +1,12 @@
 export interface Product {
   image: string;
-  id: number;
+  id: string;
   title: string;
-  subtitle: string;
-  accordions: string[];
+  accordions: Array<Accordion>;
+}
+
+export interface Accordion {
+  title: string;
+  subtitle?: string;
+  text: string;
 }

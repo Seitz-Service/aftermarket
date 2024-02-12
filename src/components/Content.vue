@@ -14,9 +14,7 @@ const title: string = props.product.title;
       <Accordion
           v-for="accordion in accordions"
           :key="accordion.title"
-          :subtitle="accordion.subtitle"
-          :title="accordion.title"
-          :text="accordion.text"
+          :accordion="accordion"
       />
     </div>
     <div class="content-image">

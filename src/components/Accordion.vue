@@ -1,7 +1,9 @@
 <script setup lang="ts">
 import {ref} from "vue";
+import {Accordion} from "../interfaces/IProduct.ts";
 
-const props = defineProps<{ title: string, subtitle: string, text: string }>();
+const props = defineProps<{ accordion: Accordion }>();
+const accordion = ref<Accordion>(props.accordion);
 const isAccordionOpen = ref(false);
 const toggleAccordion = () => {
   isAccordionOpen.value = !isAccordionOpen.value;
@@ -12,13 +14,13 @@ const toggleAccordion = () => {
   <div class="accordion-container">
     <div :class="['accordion', {active: isAccordionOpen}]" @click="toggleAccordion">
       <div class="accordion-header">
-        <span class="title" v-html="props.title" />
+        <span class="title" v-html="accordion.title" />
         <span>{{ isAccordionOpen ? '-' : '+' }}</span>
       </div>
-      <span v-if="props.subtitle" class="subtitle" v-html="props.subtitle" />
+      <span v-if="accordion.subtitle" class="subtitle" v-html="accordion.subtitle" />
     </div>
     <div :class="['panel', {open: isAccordionOpen}]">
-      <p v-html="props.text" />
+      <p v-html="accordion.text" />
     </div>
   </div>
 </template>
