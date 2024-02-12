@@ -1,39 +1,47 @@
 {
     "byId": {
-        "1": {
-            "id": hyvalve-1000-type-3106,
+        "hyvalve-1000-type-3106": {
+            "id": "hyvalve-1000-type-3106",
             "title": "HyValve 1000 Type 3106",
             "accordions": [
                 {
-                    "title": "Product Information​",
+                    "title": "Product Information",
+                    "subtitle": null,
                     "text": "<strong>Product:</strong> Hyvalve 1000 Type 3106<br><strong>Company:</strong> Weh Technologies Inc.<br><strong>Date of Order:</strong> 10/2023<br><strong>Order Number:</strong> 800.xxx.xx<br><strong>Product number:</strong> 20 of 40<br><strong>LOT no.:</strong> 0123456789<br>"
                 },
                 {
                     "title": "Installation and Assembly Instructions",
+                    "subtitle": null,
                     "text": "<a href='your_download_link_here'>Download full information here</a>"
                 },
                 {
                     "title": "CAD Drawing",
+                    "subtitle": null,
                     "text": "<a href='your_download_link_here'>Download full information here</a>"
                 },
                 {
                     "title": "Final Test Report",
+                    "subtitle": null,
                     "text": "<a href='your_download_link_here'>Download full information here</a>"
                 },
                 {
                     "title": "Warranty Information",
+                    "subtitle": null,
                     "text": "<a href='your_download_link_here'>Download full information here</a>"
                 },
                 {
-                    "title": "EU-declaration of conformity<br>(ATEX for solenoid, PED for valve)",
+                    "title": "EU-declaration of conformity",
+                    "subtitle": "(ATEX for solenoid, PED for valve)",
                     "text": "<a href='your_download_link_here'>Download full information here</a>"
                 },
                 {
-                    "title": "Approvals & Certifications <br> (RoHS, REACh, FDA, UL)",
+                    "title": "Approvals & Certifications",
+                    "subtitle": "(RoHS, REACh, FDA, UL)",
                     "text": "<a href='your_download_link_here'>Download full information here</a>"
                 },
                 {
                     "title": "Maintenance manual & Video Clip",
+                    "subtitle": null,
                     "text": "<a href='your_download_link_here'>Download full information here</a>"
                 }
             ]
