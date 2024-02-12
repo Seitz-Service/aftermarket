@@ -43,22 +43,10 @@ const toggleAccordion = () => {
   }
 
   .title {
-    font-size: 2.5em;
+    font-size: 44px;
     font-weight: 700;
-    color: #02adea;
-    position: relative;
-
-    &:after {
-      content: '';
-      background-color: #9be5f2;
-      position: absolute;
-      bottom: 10px;
-      left: 0;
-      right: 0;
-      width: 100%;
-      height: 8px;
-      z-index: -1;
-    }
+    color: rgb(61, 153, 212);
+    box-shadow: inset 0 -0.5em 0 rgba(61, 153, 212, 0.3), 0 0 0 rgba(61, 153, 212, 0.3);
   }
 }
 
