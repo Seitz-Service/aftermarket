@@ -1,26 +1,46 @@
 {
     "byId": {
         "1": {
-            "id": 1,
-            "title": "product 1",
+            "id": hyvalve-1000-type-3106,
+            "title": "HyValve 1000 Type 3106",
             "accordions": [
                 {
-                    "title": "Section 1",
-                    "text": "text"
+                    "title": "Product Information​",
+                    "text": "<strong>Product:</strong> Hyvalve 1000 Type 3106<br><strong>Company:</strong> Weh Technologies Inc.<br><strong>Date of Order:</strong> 10/2023<br><strong>Order Number:</strong> 800.xxx.xx<br><strong>Product number:</strong> 20 of 40<br><strong>LOT no.:</strong> 0123456789<br>"
                 },
                 {
-                    "title": "Section 2",
-                    "text": "text"
+                    "title": "Installation and Assembly Instructions",
+                    "text": "<a href='your_download_link_here'>Download full information here</a>"
                 },
                 {
-                    "title": "Section 3",
-                    "text": "text"
+                    "title": "CAD Drawing",
+                    "text": "<a href='your_download_link_here'>Download full information here</a>"
+                },
+                {
+                    "title": "Final Test Report",
+                    "text": "<a href='your_download_link_here'>Download full information here</a>"
+                },
+                {
+                    "title": "Warranty Information",
+                    "text": "<a href='your_download_link_here'>Download full information here</a>"
+                },
+                {
+                    "title": "EU-declaration of conformity<br>(ATEX for solenoid, PED for valve)",
+                    "text": "<a href='your_download_link_here'>Download full information here</a>"
+                },
+                {
+                    "title": "Approvals & Certifications <br> (RoHS, REACh, FDA, UL)",
+                    "text": "<a href='your_download_link_here'>Download full information here</a>"
+                },
+                {
+                    "title": "Maintenance manual & Video Clip",
+                    "text": "<a href='your_download_link_here'>Download full information here</a>"
                 }
             ]
         },
         "2": {
             "id": 2,
-            "title": "HyValve 1000 Type 3106 product 2",
+            "title": "product 2",
             "accordions": [
                 {
                     "title": "Section 1",
@@ -51,5 +71,9 @@
             ]
         }
     },
-    "allIds": [1, 2, 3]
+    "allIds": [
+        1,
+        2,
+        3
+    ]
 }
