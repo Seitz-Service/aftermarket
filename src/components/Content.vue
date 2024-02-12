@@ -7,5 +7,11 @@ const accordions = props.product.accordions;
 </script>
 
 <template>
-  <Accordion v-for="accordion in accordions" :key="accordion.title" :title="accordion.title" :text="accordion.text" />
+  <Accordion
+      v-for="accordion in accordions"
+      :key="accordion.title"
+      :subtitle="accordion.subtitle"
+      :title="accordion.title"
+      :text="accordion.text"
+  />
 </template>

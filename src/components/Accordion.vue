@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import {ref} from "vue";
 
-const props = defineProps<{ title: string, text: string }>();
+const props = defineProps<{ title: string, subtitle: string, text: string }>();
 const isAccordionOpen = ref(false);
 const toggleAccordion = () => {
   isAccordionOpen.value = !isAccordionOpen.value;
@@ -11,11 +11,14 @@ const toggleAccordion = () => {
 <template>
   <div class="accordion-container">
     <div :class="['accordion', {active: isAccordionOpen}]" @click="toggleAccordion">
-      <span class="title">{{ props.title }}</span>
-      <span>{{ isAccordionOpen ? '-' : '+' }}</span>
+      <div class="accordion-header">
+        <span class="title" v-html="props.title" />
+        <span>{{ isAccordionOpen ? '-' : '+' }}</span>
+      </div>
+      <span v-if="props.subtitle" class="subtitle" v-html="props.subtitle" />
     </div>
     <div :class="['panel', {open: isAccordionOpen}]">
-      <p>{{ props.text }}</p>
+      <p v-html="props.text" />
     </div>
   </div>
 </template>
@@ -26,13 +29,18 @@ const toggleAccordion = () => {
   color: #444;
   cursor: pointer;
   padding: 20px 10px;
-  display: flex;
-  justify-content: space-between;
 
   text-align: left;
   border: none;
   outline: none;
   transition: 0.4s;
+
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
 
   .title {
     font-size: 1.60em;
@@ -42,7 +50,7 @@ const toggleAccordion = () => {
 }
 
 .panel {
-  padding: 0 18px;
+  padding: 0 10px;
   display: none;
   overflow: hidden;
 
