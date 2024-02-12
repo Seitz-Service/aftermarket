@@ -45,7 +45,8 @@ const toggleAccordion = () => {
   .title {
     font-size: 1.60em;
     font-weight: 700;
-    color: #646cff;
+    color: #02adea;
+    position: relative;
   }
 }
 
