@@ -25,7 +25,7 @@ export const products: Product[] =
         },
         {
           "title": "Warranty Information",
-          "text": 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis congue varius neque, sit amet accumsan urna sollicitudin sit amet. Phasellus ut dignissim arcu. Nam venenatis lacus ac mauris lobortis imperdiet. Ut eget aliquet lectus. Quisque at pellentesque nisi. Cras sit amet diam id quam tempus accumsan. Quisque venenatis dolor lacus, id sagittis elit pellentesque et. Nam faucibus ex sit amet euismod bibendum. Donec tellus ipsum, tristique sed justo id, sagittis luctus diam. Vestibulum risus libero, vulputate in ante vitae, euismod fermentum enim. Sed pulvinar vel ipsum at pharetra. Vestibulum laoreet justo nisi, eu varius ex aliquam nec. Fusce est massa, mollis a dignissim et, placerat ut leo. Pellentesque rhoncus purus sem, nec maximus ante porttitor condimentum. Maecenas maximus quam in mi bibendum sodales.'
+          "text": 'The high-pressure-valves are calculated for a life time of 500.000 cycles or 10 years, if you will strictly follow the guarantee conditions in this operating instruction and on observance with reference to the maintenance interval with original repair kits from Eugen Seitz AG.'
         },
         {
           "title": "EU-declaration of conformity",
