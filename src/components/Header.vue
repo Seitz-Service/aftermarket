@@ -23,6 +23,12 @@ const title: string = props.product.title;
   background: url("/public/images/site/seitz-unternehmen 1284_Zuschnitt.jpg") no-repeat center;
   color: rgb(122, 227, 166);
 
+  @media (max-width: 1250px) {
+    &:after {
+      content: none !important;
+    }
+  }
+
   &:before {
     content: "";
     position: absolute;

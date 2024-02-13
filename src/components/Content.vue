@@ -37,11 +37,19 @@ const title: string = props.product.title;
 
   .content-info {
     width: 80%;
+
+    @media (max-width: 1250px) {
+      width: 100%;
+    }
   }
 
   .content-image {
     width: 20%;
     padding-top: 20px;
+
+    @media (max-width: 1250px) {
+      display: none;
+    }
 
     img {
       width: 100%;

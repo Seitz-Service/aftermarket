@@ -50,6 +50,12 @@ const toggleAccordion = () => {
     color: rgb(61, 153, 212);
     box-shadow: inset 0 -0.5em 0 rgba(61, 153, 212, 0.3), 0 0 0 rgba(61, 153, 212, 0.3);
   }
+
+  .subtitle {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(61, 153, 212);
+  }
 }
 
 .panel {
