@@ -18,7 +18,7 @@ const title: string = props.product.title;
       />
     </div>
     <div class="content-image">
-      <img :src="`/public/images/products/${image}`" :alt="title" />
+      <img :src="`/aftermarket/images/products/${image}`" :alt="title" />
     </div>
   </div>
 </template>

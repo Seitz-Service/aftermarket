@@ -13,33 +13,33 @@ export const products: Product[] =
         },
         {
           "title": "Installation and Assembly Instructions",
-          "text": `<a target="_blank" href="/public/pdf/hyvalve-1000-type-3106-Assembly.pdf">Download full information here</a>`
+          "text": `<a target="_blank" href="/aftermarket/pdf/hyvalve-1000-type-3106-Assembly.pdf">Download full information here</a>`
         },
         {
           "title": "CAD Drawing",
-          "text": `<a target="_blank" href="/public/pdf/hyvalve-1000-type-3106-CAD.pdf">Download full information here</a>`
+          "text": `<a target="_blank" href="/aftermarket/pdf/hyvalve-1000-type-3106-CAD.pdf">Download full information here</a>`
         },
         {
           "title": "Final Test Report",
-          "text": `<a target="_blank" href="/public/pdf/hyvalve-1000-type-3106-Assembly.pdf">Download full information here</a>`
+          "text": `<a target="_blank" href="/aftermarket/pdf/hyvalve-1000-type-3106-Assembly.pdf">Download full information here</a>`
         },
         {
           "title": "Warranty Information",
-          "text": `<a target="_blank" href="/public/pdf/hyvalve-1000-type-3106-Assembly.pdf">Download full information here</a>`
+          "text": `<a target="_blank" href="/aftermarket/pdf/hyvalve-1000-type-3106-Assembly.pdf">Download full information here</a>`
         },
         {
           "title": "EU-declaration of conformity",
           "subtitle": "(ATEX for solenoid, PED for valve)",
-          "text": `<a target="_blank" href="/public/pdf/hyvalve-1000-type-3106-Assembly.pdf">Download full information here</a>`
+          "text": `<a target="_blank" href="/aftermarket/pdf/hyvalve-1000-type-3106-Assembly.pdf">Download full information here</a>`
         },
         {
           "title": "Approvals & Certifications",
           "subtitle": "(RoHS, REACh, FDA, UL)",
-          "text": `<a target="_blank" href="/public/pdf/hyvalve-1000-type-3106-Assembly.pdf">Download full information here</a>`
+          "text": `<a target="_blank" href="/aftermarket/pdf/hyvalve-1000-type-3106-Assembly.pdf">Download full information here</a>`
         },
         {
           "title": "Maintenance manual & Video Clip",
-          "text": `<a target="_blank" href="/public/pdf/hyvalve-1000-type-3106-Assembly.pdf">Download full information here</a>`
+          "text": `<a target="_blank" href="/aftermarket/pdf/hyvalve-1000-type-3106-Assembly.pdf">Download full information here</a>`
         }
       ]
     }
