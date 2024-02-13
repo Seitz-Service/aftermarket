@@ -50,6 +50,10 @@ const toggleAccordion = () => {
     font-weight: 700;
     color: rgb(61, 153, 212);
     box-shadow: inset 0 -0.5em 0 rgba(61, 153, 212, 0.3), 0 0 0 rgba(61, 153, 212, 0.3);
+
+    @media (max-width: 1250px) {
+      flex-basis: 95%;
+    }
   }
 
   .subtitle {

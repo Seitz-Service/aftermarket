@@ -76,6 +76,5 @@ const title: string = props.product.title;
       margin: 0 20px;
     }
   }
-
 }
 </style>
