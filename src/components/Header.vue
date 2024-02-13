@@ -24,6 +24,8 @@ const title: string = props.product.title;
   color: rgb(122, 227, 166);
 
   @media (max-width: 1250px) {
+    height: 70vh;
+
     &:after {
       content: none !important;
     }
@@ -60,16 +62,20 @@ const title: string = props.product.title;
     z-index: 3;
     width: 175px;
     top: 12px;
-    left: 30px;
+    left: 20px;
   }
 
   h1 {
+    width: 100%;
     max-width: 1240px;
     margin: 0 auto;
-    padding-right: 40%;
-    padding-left: 30px;
     position: relative;
     z-index: 3;
+
+    @media (max-width: 1250px) {
+      margin: 0 20px;
+    }
   }
+
 }
 </style>
