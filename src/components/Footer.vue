@@ -40,7 +40,7 @@
     font-size: 3em;
     display: inline;
     margin: 0;
-    box-shadow: inset 0 -0.5em 0 rgba(61, 153, 212, 0.3), 0 0 0 rgba(61, 153, 212, 0.3);
+    box-shadow: inset 0 -0.5em 0 rgba(59, 94, 93, 0.8), 0 0 0 rgba(59, 94, 93, 0.8);
   }
 }
 
